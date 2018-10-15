@@ -51,3 +51,29 @@ console.log(arregloTotal);
 //console.log(indiceSiete);
 
 
+var vicente = {
+    nombre: "Vicente",
+    apellido: "Eguez"
+};
+
+var eguez = {
+    sueldo: 1.10
+};
+
+var adrian = {
+    edad: 20,
+    casado: false,
+    hijos: null,
+    mmascota: {
+        nombre: "cachetes"
+    }
+};
+
+var vicenteAdrianEguez = {
+    ...vicente,
+    ...adrian,
+    ...eguez
+};
+
+console.log(vicenteAdrianEguez);
+
